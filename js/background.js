@@ -1,5 +1,5 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
-  chrome.tabs.create({'url': chrome.extension.getURL('listen1.html')}, function(tab) {
+  chrome.tabs.create({'url': chrome.extension.getURL('iListen.html')}, function(tab) {
     // Tab opened.
   });
 });
